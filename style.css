@@ -1,0 +1,73 @@
+.title {
+	background-image:url(images/imagefond.jpg);
+	width: 1650px;
+	height: 600px;
+	border:1px solid #ff5c33;
+	margin: 40px auto;
+	vertical-align: middle;
+}
+.title h1 {
+ 	font-size: 3em;
+	background-color: rgba(255, 255, 255, 0.3);
+ 	padding: 40px;
+ 	box-shadow: 0px 10px 30px rgba(0,0,0,0.5);
+ 	border-radius: 4px;
+ 	margin: 40px 0px;
+ 	color: white;
+}
+.title a {
+	background-color: orange;
+	padding: 10px;
+	margin: 20px;
+	font-size: 3em;
+	text-decoration: none;
+	transition:1s;
+}
+body {
+	background:#ff5c33;
+}
+
+.chiens{
+	display:flex;
+	width: 400px;
+	height: 400px;
+	margin-bottom: 75px;
+	margin-left: 100px;
+	text-align: center;
+	transition: 1s;
+
+}
+.chiens img {
+	border-radius: 20px;
+	transition: 1s ease;
+}
+
+.chiens p {
+	position: absolute;
+	text-align: center;
+	font-family: cursive;
+	margin-left: 820px;
+	margin-top: 150px;
+	font-size: 3em;
+	color: white;
+	transition: 1s ease;
+	opacity:0;
+}
+.deux p {
+	margin-left: 420px;
+}
+.chiens:hover {
+	border-radius: 50px;
+}
+.chiens:hover img {
+	border-radius: 50px;
+
+	transform: rotate(-20deg);
+}
+.chiens:hover p {
+	opacity:1;
+
+}
+.title a:hover  {
+	font-size: 3.5em;
+}
